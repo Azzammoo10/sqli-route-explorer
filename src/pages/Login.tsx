@@ -26,22 +26,13 @@ const Login = () => {
           <div className="md:w-1/2 p-8 lg:p-12">
             {/* Header */}
             <div className="text-left mb-8">
-              <div className="text-sm text-muted-foreground mb-6">Login</div>
               <div className="mb-2">
                 <img 
-                  src="/assets/images/SQLI-LOGO.png" 
+                  src="./assets/images/SQLI-LOGO.png" 
                   alt="SQLI Logo" 
                   className="h-8 mb-4"
                 />
-                <h1 className="text-2xl lg:text-3xl font-bold text-primary mb-2">
-                  SQLI
-                </h1>
-                <h2 className="text-xl lg:text-2xl font-bold text-primary">
-                  DIGITAL
-                </h2>
-                <h2 className="text-xl lg:text-2xl font-bold text-primary">
-                  EXPERIENCE
-                </h2>
+                
               </div>
               <p className="text-sm text-muted-foreground mt-4">
                 Login into your account
@@ -60,7 +51,7 @@ const Login = () => {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     className="pl-10 h-12 bg-input border-border focus:ring-primary focus:border-primary"
-                    placeholder="ales@gmail.com"
+                    placeholder="azzm"
                   />
                   <Mail className="absolute left-3 top-3.5 h-5 w-5 text-muted-foreground" />
                 </div>
@@ -129,7 +120,7 @@ const Login = () => {
               {/* Main Illustration */}
               <div className="relative z-10 flex flex-col items-center">
                 <img
-                  src="/assets/images/undraw_security.png"
+                  src="./assets/images/undraw_security.png"
                   alt="Security Illustration"
                   className="w-full max-w-sm mx-auto"
                 />
