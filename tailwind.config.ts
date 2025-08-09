@@ -52,6 +52,11 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				sqli: {
+					primary: 'hsl(var(--sqli-primary))',
+					'primary-dark': 'hsl(var(--sqli-primary-dark))',
+					accent: 'hsl(var(--sqli-accent))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
